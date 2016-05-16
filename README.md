@@ -28,15 +28,19 @@ The most important components:
 
 5 NiMh AA Eneloop Batteries by Panasonic 
 
-1 DC-DC converter to convert to 3.3V without the servo noise
+1 Battery holder for 5 AA batteries
+
+1 DC-DC converter to converter to 3.3V without the servo noise
 
 18 M3 screws 12mm
 
-6 Bearings 623Z
+6 Bearings 623Z (id=3mm, od=10mm)
 
 6 M3 washers
 
 6 M3 nuts
+
+6 Brass 40mm Stand Offs (M3 threaded)
 
 50 2mm x 5mm screws
 
