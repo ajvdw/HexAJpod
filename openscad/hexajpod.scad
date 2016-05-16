@@ -21,10 +21,10 @@ module dcdcconverter(holes=false)
    {
         union()
         {
-            translate([-dcdcboard_length/2,dcdcboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([-dcdcboard_length/2,-dcdcboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([dcdcboard_length/2,-dcdcboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([dcdcboard_length/2,dcdcboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
+            translate([-dcdcboard_length/2,dcdcboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([-dcdcboard_length/2,-dcdcboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([dcdcboard_length/2,-dcdcboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([dcdcboard_length/2,dcdcboard_width/2,0]) cylinder( d=5, h=6 );
         }
     }
     else
@@ -45,10 +45,10 @@ module nodemcu(holes=false)
     {
         union()
         {
-            translate([-nodemcuboard_length/2,nodemcuboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([-nodemcuboard_length/2,-nodemcuboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([nodemcuboard_length/2,-nodemcuboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([nodemcuboard_length/2,nodemcuboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
+            translate([-nodemcuboard_length/2,nodemcuboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([-nodemcuboard_length/2,-nodemcuboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([nodemcuboard_length/2,-nodemcuboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([nodemcuboard_length/2,nodemcuboard_width/2,0]) cylinder( d=5, h=6 );
         }
     }
     else
@@ -70,10 +70,10 @@ module driver(holes=false)
     {
         union()
         {
-            translate([-driverboard_length/2,driverboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([-driverboard_length/2,-driverboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([driverboard_length/2,-driverboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
-            translate([driverboard_length/2,driverboard_width/2,0]) cylinder( d1=8, d2=5, h=6 );
+            translate([-driverboard_length/2,driverboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([-driverboard_length/2,-driverboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([driverboard_length/2,-driverboard_width/2,0]) cylinder( d=5, h=6 );
+            translate([driverboard_length/2,driverboard_width/2,0]) cylinder( d=5, h=6 );
         }
     }
     else
@@ -211,7 +211,7 @@ module bottom()
             difference()
             {   // switch
                 translate([41,0,2]) cube([18,34,4],  center=true );
-                translate([43,0,0]) cube([9,14.5,10], center=true );
+                translate([43,0,0]) cube([9,14,10], center=true );
             }    
            
             // Boards support
