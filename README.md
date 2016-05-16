@@ -1,4 +1,4 @@
-# HexaAJpod
+# HexAJpod
 Hexapod ESP8266
 
 This repository contains
