@@ -40,7 +40,11 @@ Bill of Materials:
 
 6 M3 nuts
 
-6 Brass 40mm Stand Offs (M3 threaded)
+6 Brass 40mm Standoffs (M3 threaded)
 
-50 2mm x 5mm screws
+75 2mm x 6mm screws
+
+25 2mm x 8mm screws
+
+I ordered the parts on eBay (http://r.ebay.com/3nL8qE)
 
