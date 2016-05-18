@@ -34,6 +34,8 @@ Bill of Materials:
 
 18 M3 screws 12mm
 
+6 End caps (5mm)
+
 6 Bearings 623Z (id=3mm, od=10mm)
 
 6 M3 washers
