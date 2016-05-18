@@ -1,3 +1,6 @@
+/* Hexapod by A.J. van de Werken */
+/* May 2016                      */
+
 servo_dist = 27.6;
 servo_width = 11.5+0.5;
 servo_length = 23+0.5;
@@ -246,7 +249,7 @@ module bottom()
         translate([7,-28.5,0]) driver(true);
         translate([7,28.5,0]) driver(true);
         translate([7,0,0]) nodemcu(true);
-        translate([-38,0,0]) dcdcconverter(true);
+        translate([-37,0,0]) dcdcconverter(true);
 
     }
    
