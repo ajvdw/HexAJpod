@@ -15,10 +15,10 @@ Open a web page and visit http://192.168.4.1
 This opens a page with the remote control.
 When fully loaded, a websocket connection is opened.
 
-I will upload a Bill of Material later, but you should be able to build it for less than 100$
+You should be able to build it for less than 100$
 
 
-The most important components:
+Bill of Materials:
 
 1 NodeMCU - an ESP8266 development board by LoLin (v3)
 
@@ -30,7 +30,7 @@ The most important components:
 
 1 Battery holder for 5 AA batteries
 
-1 DC-DC converter to converter to 3.3V without the servo noise
+1 DC-DC converter to converter to get a clean 3.3V
 
 18 M3 screws 12mm
 
