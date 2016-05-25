@@ -22,7 +22,7 @@ HexAJpod v0.2
 <script>  
 window.addEventListener("orientationchange", function() { if( window.orientation == -90 || window.orientation == 90 ) window.location.reload(); });
 
-var c = document.querySelector("#canvas"),
+var c = document.querySelector("#canvas");
 
 c.width = window.innerWidth;
 c.height = window.innerHeight;
