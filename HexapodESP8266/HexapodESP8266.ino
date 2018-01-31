@@ -5,6 +5,7 @@
 #include <Arduino.h>
 #include <Wire.h>
 #include <ESP8266WiFi.h>
+#include <ESP8266WiFiGeneric.h>
 #include <WebSocketsServer.h>
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
@@ -95,14 +96,19 @@ void webSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t length
 
 void setupWiFi()
 { // setup Wifi
+//  ESP.eraseConfig();
+//  WiFi.setAutoConnect(false);
+//  WiFi.disconnect(true);
+  
   WiFi.mode(WIFI_AP);
 
   uint8_t mac[6];
   char apStr[18] = {0};
   WiFi.macAddress(mac);
+  //sprintf(apStr, "Hexapod %s", "test" );
   sprintf(apStr, "Hexapod %02X%02X%02X%02X",  mac[2], mac[3], mac[4], mac[5]);
 
-  WiFi.softAP(apStr, WiFiAPPSK);
+  WiFi.softAP(apStr, WiFiAPPSK, 9);
 }
 
 void updateGait()

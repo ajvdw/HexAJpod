@@ -1,5 +1,5 @@
 // Index page 
-const char index_html[] PROGMEM =  R"=====(<!DOCTYPE html>
+const char index_html[] =  R"=====(<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8" />

@@ -1,5 +1,5 @@
 // Calibration page - dynamic data
-const char calib_html[] PROGMEM =  R"=====(<!DOCTYPE html>
+const char calib_html[] =  R"=====(<!DOCTYPE html>
 <html>
 <body>
 <script type=text/javascript>

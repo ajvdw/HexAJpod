@@ -55,7 +55,7 @@ void Phoenix::Init(void)
     
         
     //Gait
-    g_InControlState.GaitType = 1;  // 0; Devon wanted 
+    g_InControlState.GaitType = 2;  // 0; Devon wanted 
     g_InControlState.BalanceMode = 0;
     g_InControlState.LegLiftHeight = 50;
     GaitStep = 1;

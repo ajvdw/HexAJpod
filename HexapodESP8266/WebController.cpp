@@ -38,7 +38,7 @@ const char* LegName[]  = {"Right Rear",  "Right Middle",  "Right Front",  "Left 
 void WebController::Init(void)
 {
   g_InControlState.SpeedControl = 50;
-  g_BodyYOffset = 0;
+  g_BodyYOffset = 30;
   ControlMode = WALKMODE;
   WalkSubMode = GAITSUBMODE;
   DoubleHeightOn = false;
